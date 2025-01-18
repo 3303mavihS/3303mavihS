@@ -18,31 +18,19 @@ I'm Shivam Sharma, a passionate **Full-Stack Developer**, **Mobile App Creator**
 
 #### **Languages**
 
-<p><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-<img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/></p>
+<img src="https://skillicons.dev/icons?i=c,cpp,java,php,python,javascript,kotlin" />
 
 #### **Frameworks & Libraries**
 
-<p><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
-<img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></p>
+<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,nodejs,express,react" /><br>
 
 #### **Databases**
 
-<p><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
-
-<img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/></p>
+<img src="https://skillicons.dev/icons?i=mongodb,postgresql,sqlite,firebase,mysql"/>
 
 #### **Tools**
 
-<p><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/></p>
+<img src="https://skillicons.dev/icons?i=linux,git,github,vscode"/>
 
 <!-- ---
 
@@ -75,6 +63,14 @@ I'm Shivam Sharma, a passionate **Full-Stack Developer**, **Mobile App Creator**
 
 - **Tech Stack**: Kotlin, MVVM, Room, Retrofit
 - Created a mobile app with **99.8% stability** and enhanced multitasking using **Kotlin Coroutines**. -->
+
+---
+
+## <p align="left"><img  src="https://github-readme-stats.vercel.app/api/top-langs?username=3303mavihs&layout=compact&theme=tokyonight" alt="3303mavihs" /></p>
+
+---
+
+<p align="left"><img src="https://github-readme-activity-graph.vercel.app/graph?username=3303mavihs&theme=tokyonight&bg_color=1a1b27&color=a8eeff&line=61dafb&point=f0fcff&area=true&hide_border=false" alt="3303mavihs" /></p>
 
 ---
 
