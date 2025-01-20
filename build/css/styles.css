@@ -2696,8 +2696,6 @@ img.u-pull-left {
     margin-top: 25px;
     object-fit: cover;
     border-radius: 50%;
-    /* position: absolute;
-    right: 10%; */
     padding: 10px;
     border: 1px solid hsl(36deg 72% 70% / 18%);
 }
@@ -2705,6 +2703,18 @@ img.u-pull-left {
     display: flex;
     justify-content: end;
     margin-top: -380px;
+}
+.skill-table tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skill-table td{
+    display: flex;
+    justify-content: center;
+}
+.skill-table td img{
+    margin: 0;
 }
 /* ------------------------------------------------------------------- 
  * ## MailtoUI style overrides
@@ -3375,6 +3385,20 @@ img.u-pull-left {
 
         justify-content: center;
         margin-top: 0px;
+    }
+
+    .skill-table tr{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .skill-table td{
+        display: flex;
+        justify-content: start;
+        padding:15px 0;
+    }
+    .skill-table td img{
+        margin: 0;
     }
 }
 
