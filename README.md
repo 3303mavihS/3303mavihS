@@ -22,7 +22,7 @@ I'm Shivam Sharma, a passionate **Full-Stack Developer**, **Mobile App Creator**
 
 #### **Frameworks & Libraries**
 
-<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,nodejs,express,react" /><br>
+<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,materialui,nodejs,express,react" /><br>
 
 #### **Databases**
 
@@ -30,7 +30,7 @@ I'm Shivam Sharma, a passionate **Full-Stack Developer**, **Mobile App Creator**
 
 #### **Tools**
 
-<img src="https://skillicons.dev/icons?i=linux,git,github,vscode"/>
+<img src="https://skillicons.dev/icons?i=linux,git,github,vscode,androidstudio,postman"/>
 
 <!-- ---
 

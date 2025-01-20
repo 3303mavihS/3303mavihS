@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="144" height="144" viewBox="0 0 144 144" fill="none" stroke="none" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="path_1" d="M144 0L144 0L144 144L0 144L0 0L144 0Z" />
+    <rect id="rect_2" x="0" y="0" width="144" height="144" />
+    <clipPath id="clip_path_3">
+      <use xlink:href="#rect_2" />
+    </clipPath>
+  </defs>
+  <g id="R" opacity="1" clip-path="url(#clip_path_3)">
+    <g>
+      <use xlink:href="#path_1" style="fill:#793A27;fill-rule:evenodd;mix-blend-mode:normal;" />
+      <g>
+        <g style="mix-blend-mode:normal;" transform="translate(29 0)">
+          <path d="M44.368 31.624Q60.298 31.624 68.971 38.999Q77.644 46.374 77.644 59.708Q77.644 73.632 68.971 81.361Q60.298 89.09 44.368 89.09L24.78 89.09L24.78 114.224L10.856 114.224L10.856 31.624L44.368 31.624ZM44.368 77.172Q53.926 77.172 59.177 72.983Q64.428 68.794 64.428 60.062Q64.428 51.684 59.177 47.613Q53.926 43.542 44.368 43.542L24.78 43.542L24.78 77.172L44.368 77.172ZM44.84 83.662L58.528 83.662L79.06 114.224L63.248 114.224L44.84 83.662Z" style="fill:#141516;" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
