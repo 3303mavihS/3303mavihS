@@ -964,8 +964,8 @@ textarea {
 @media screen and (max-width: 600px) {
     .row {
         width         : 100%;
-        padding-left  : 6vw;
-        padding-right : 6vw;
+        padding-left  : 20px;
+        padding-right : 20px;
     }
 
     .row .row {
@@ -2691,9 +2691,8 @@ img.u-pull-left {
     margin-top  : 0;
 }
 .right-profile-picture{
-    width: 350px;
-    height: 350px;
-    margin-top: 25px;
+    width: 325px;
+    height: 325px;
     object-fit: cover;
     border-radius: 50%;
     padding: 10px;
@@ -3382,7 +3381,6 @@ img.u-pull-left {
     }
 
     .right-profile-picture-div{
-
         justify-content: center;
         margin-top: 0px;
     }
@@ -3399,6 +3397,7 @@ img.u-pull-left {
     }
     .skill-table td img{
         margin: 0;
+        min-height: 60px;
     }
 }
 
