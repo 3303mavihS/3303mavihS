@@ -4285,3 +4285,22 @@ img.u-pull-left {
         right : 6vw;
     }
 }
+
+
+/* ------------------------------------------------------------------- 
+ * custom css
+ * ------------------------------------------------------------------- */
+ .justify-text{
+    text-align: justify;
+ }
+ .mobile_display{
+    display: none;
+ }
+ @media screen and (max-width: 480px) {
+    .desktop_display{
+        display: none;
+    }
+    .mobile_display{
+        display: block;
+    }
+ }
