@@ -12,7 +12,7 @@
 <img align="center" alt="GIF" src="https://raw.githubusercontent.com/KevinPatel04/KevinPatel04/master/header.png" />
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> About Me
-<pre>
+
 - 🔭 Currently a **Software Development Engineer - 1** at **Groww**
 - 🎓 MCA — **Tezpur University** · B.Com — **University of Delhi**
 - 💡 I build at the intersection of engineering and business thinking
@@ -21,7 +21,7 @@
 - 🚀 What drives me: building things that actually **change how people do something** or make it meaningfully easier
 - 💬 Ask me about **Full-Stack Dev, Mobile Apps, or anything tech**
 - 📧 Reach me at **[tryshivam3303@gmail.com](mailto:tryshivam3303@gmail.com)**
-</pre>
+
 <br>
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> Skills
