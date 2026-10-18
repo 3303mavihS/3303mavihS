@@ -1,110 +1,135 @@
-<h1 align="center">Hey there, I'm Shivam <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
-
-
-
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&color=39FF14&background=000000&center=true&vCenter=true&width=540&lines=Full-Stack+Developer;Mobile+App+Creator;MCA+%2B+B.Com+%E2%80%94+Both+Sides+of+the+Table;Always+Building+Something+New)
+<img src="./art/banner.png" alt="Shivam Sharma — Software Engineer" width="100%">
+
+<br>
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-mr--shivam--sharma.netlify.app-B23E17?style=for-the-badge)](https://mr-shivam-sharma.netlify.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mr-shivam-sharma/)
+[![X](https://img.shields.io/badge/X-17140E?style=for-the-badge&logo=x&logoColor=white)](https://x.com/_sharma_shivam)
+[![Email](https://img.shields.io/badge/Email-B23E17?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sharmshivam23032000@gmail.com)
 
 </div>
 
-<!-- <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif"> -->
-<img align="center" alt="GIF" src="https://raw.githubusercontent.com/KevinPatel04/KevinPatel04/master/header.png" />
-
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> About Me
-
-- 🔭 Currently a **Software Development Engineer - 1** at **Groww**
-- 🎓 MCA — **Tezpur University** · B.Com — **University of Delhi**
-- 💡 I build at the intersection of engineering and business thinking
-- 🌐 Portfolio: **[mr-shivam-sharma.netlify.app](https://mr-shivam-sharma.netlify.app)**
-- 🏗️ Genuinely excited by **both sides** — the business *why* behind a product and the engineering *how* that brings it to life
-- 🚀 What drives me: building things that actually **change how people do something** or make it meaningfully easier
-- 💬 Ask me about **Full-Stack Dev, Mobile Apps, or anything tech**
-- 📧 Reach me at **[tryshivam3303@gmail.com](mailto:tryshivam3303@gmail.com)**
+---
 
 <br>
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> Skills
+<div align="center">
 
-<p align="center">
+## The portfolio, live — day shifts to dusk shifts to night 🌗
 
-- 📋 Languages:
+*A full tour, no clicks required:*
 
-    ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-    ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-    ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-    ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-    ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-    ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-    ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+<img src="./art/tour.gif" alt="Portfolio tour" width="100%">
 
-- 🌐 Frontend:
+**[mr-shivam-sharma.netlify.app](https://mr-shivam-sharma.netlify.app)** — it greets you in six languages, follows your cursor, and tells the time. It also has secrets. View-source is your friend. 👀
 
-    ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-    ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-    ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-    ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-    ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-    ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-- 🔧 Backend:
-
-    ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-    ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-
-- 💾 Databases:
-
-    ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-    ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-    ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-    ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-    ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
-
-- 🛠️ Tools:
-
-    ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-    ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-    ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-    ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-    ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-    ![Android Studio](https://img.shields.io/badge/android%20studio-346ac1?style=for-the-badge&logo=android%20studio&logoColor=white)
-    ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-    ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-
-</p>
+</div>
 
 <br>
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> GitHub Stats
-
-
-<p align="center">
-<img width="460" src="https://github-readme-streak-stats.herokuapp.com/?user=3303mavihs&theme=tokyonight&hide_border=true">
-</p>
-
-<p align="center">
-	<a href="https://github.com/3303mavihs">
-        <img src="https://komarev.com/ghpvc/?username=3303mavihs&label=Profile%20views&color=0e75b6&style=flat" alt="3303mavihs" />
-    </a>
-    <a href="https://github.com/3303mavihs">
-        <img src="https://img.shields.io/github/followers/3303mavihs?label=Followers" alt="3303mavihs" />
-    </a>
-</p>
-
+---
 
 <br>
 
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> Connect with Me
+# 🧭 Right now
 
-<em><b>Always open to a good conversation</b> — whether it's about code, ideas, or building something meaningful. <b>Let's connect!</b> 😄</em>
+**Software Development Engineer I @ Groww** — building financial products where the numbers are real:
+
+- 🔹 Owned the **Unlisted Shares** product end-to-end — frontend, backend, order tracking, bank-statement workflows, payment reconciliation
+- 🔹 Built **Java / Spring Boot** report generation across 5+ microservices (one of them an ML service)
+- 🔹 Shipped a migration pipeline moving **300K+ financial records** while processing 2K+ real-time events daily
+- 🔹 Before that **@ Fisdom** — unblocked **₹10 Cr+** in stuck commission payouts, cut document latency by **80%**
 
 <br>
 
-<p align="center">
-<a href="https://mr-shivam-sharma.netlify.app" target="blank"><img align="center" src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-&nbsp;<a href="https://www.linkedin.com/in/mr-shivam-sharma/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-&nbsp;<a href="https://github.com/3303mavihS" target="blank"><img align="center" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" /></a>
-&nbsp;<a href="https://x.com/_sharma_shivam" target="blank"><img align="center" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
-&nbsp;<a href="mailto:sharmashivam23032000@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+# 📊 Scoreboard
 
+<div align="center">
+
+| ₹120+ Cr | 5,000+ | 300K+ | 80% | 3M+ |
+|:---:|:---:|:---:|:---:|:---:|
+| investments supported | transactions processed | records migrated | latency cut | base pairs visualized |
+
+</div>
+
+<br>
+
+# 🚀 Featured builds
+
+<table>
+<tr>
+  <td width="50%">
+    <a href="https://3d-orderbook.netlify.app/"><img src="./build/images/orderbook.png" alt="Orderbook Depth 3D"></a>
+    <h3>Orderbook Depth 3D</h3>
+    <sub>Crypto market depth as a live 3D landscape — Three.js · Binance/OKX APIs</sub>
+  </td>
+  <td width="50%">
+    <img src="./build/images/genetic-portal.png" alt="Genomic Portal">
+    <h3>Genomic Research Portal</h3>
+    <sub>3M+ base pairs on a custom Canvas genome browser — 100+ researchers</sub>
+  </td>
+</tr>
+<tr>
+  <td width="50%">
+    <a href="https://localvibe.netlify.app/"><img src="./build/images/localvibe.png" alt="LocalVibe"></a>
+    <h3>LocalVibe</h3>
+    <sub>Location-based social discovery with geospatial search — MERN + Leaflet</sub>
+  </td>
+  <td width="50%">
+    <a href="https://my-day-planning.netlify.app/"><img src="./build/images/my-day-planning.png" alt="My Day Planning"></a>
+    <h3>My Day Planning</h3>
+    <sub>Minimal day planner with persistent storage — React</sub>
+  </td>
+</tr>
+<tr>
+  <td width="50%">
+    <a href="https://github.com/3303mavihS/RemoteFileBox"><img src="./build/images/remote-filebox.png" alt="Remote FileBox"></a>
+    <h3>Remote FileBox</h3>
+    <sub>Native Android file management — Kotlin · MVVM · Room</sub>
+  </td>
+  <td width="50%">
+    <a href="https://github.com/3303mavihS/I-m-Bored"><img src="./build/images/i-m-bored.png" alt="I'm Bored"></a>
+    <h3>I'm Bored</h3>
+    <sub>Activity suggestions over REST APIs — Kotlin · Retrofit · Coroutines</sub>
+  </td>
+</tr>
+</table>
+
+<br>
+
+# 🛠️ Toolbox
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,python,javascript,typescript,kotlin,react,vue,nodejs,express&perline=5" />
+  <br>
+  <img src="https://skillicons.dev/icons?i=tailwind,redux,mysql,postgresql,mongodb,gcp,docker,git,linux,postman&perline=5" />
 </p>
+
+<p align="center"><sub>REST APIs · microservices · data pipelines · Kong API Gateway · Jira-driven shipping</sub></p>
+
+<br>
+
+# 📈 GitHub pulse
+
+<p align="center">
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=3303mavihs&background=EDEAE2&ring=B23E17&fire=B23E17&currStreakNum=17140E&currStreakLabel=17140E&sideNums=17140E&sideLabels=756D5D&dates=756D5D&hide_border=true">
+  <img width="46%" src="https://github-readme-stats.vercel.app/api?username=3303mavihs&show_icons=true&bg_color=EDEAE2&title_color=B23E17&text_color=17140E&icon_color=B23E17&hide_border=true">
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=3303mavihs&label=visitors&color=B23E17&style=flat-square" alt="profile views" />
+</p>
+
+---
+
+<div align="center">
+
+### 💬 Always up for a good conversation — code, products, ideas, or the *why* behind what we build.
+
+**[sharmshivam23032000@gmail.com](mailto:sharmshivam23032000@gmail.com)** · **[WhatsApp](https://wa.me/919873923169)** · **[LinkedIn](https://www.linkedin.com/in/mr-shivam-sharma/)**
+
+<sub>This repo doubles as my portfolio's source — <code>build/</code> auto-deploys to Netlify, <code>archive/build-v1/</code> is where the old site rests. ⚰️🕊️</sub>
+
+</div>
