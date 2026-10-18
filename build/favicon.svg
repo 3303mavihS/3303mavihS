@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .bg    { fill: #EDEAE2; }
+    .glyph { fill: #17140E; }
+    .dot   { fill: #B23E17; }
+    @media (prefers-color-scheme: dark) {
+      .bg    { fill: #17140E; }
+      .glyph { fill: #EDEAE2; }
+      .dot   { fill: #D95B2B; }
+    }
+  </style>
+  <rect class="bg" width="64" height="64" rx="15"/>
+  <text class="glyph" x="32" y="46" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42">S</text>
+  <circle class="dot" cx="12.5" cy="43" r="5.5"/>
+</svg>
