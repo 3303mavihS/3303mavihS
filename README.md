@@ -15,44 +15,16 @@
 
 <br>
 
-<div align="center">
+# 🙂 About Me
 
-## The portfolio, live — day shifts to dusk shifts to night 🌗
+I'm a software engineer who enjoys working across the stack and figuring out how the pieces fit together. At **Groww**, I've built financial product features spanning React interfaces, Java services, database workflows, and data migration. My **MCA** (Tezpur University) gave me a stronger computer-science foundation, while my earlier business studies (**B.Com Hons**, University of Delhi) help me keep the user and the business problem in view.
 
-*A full tour, no clicks required:*
+I like problems that need more than just code: understanding what's broken, weighing trade-offs, and building something people can rely on. I'm looking to take broader ownership, contribute to product decisions, and help shape not just *how* we build things, but *what* we build and *why*.
 
-<img src="./art/tour.gif" alt="Portfolio tour" width="100%">
-
-**[mr-shivam-sharma.netlify.app](https://mr-shivam-sharma.netlify.app)** — it greets you in six languages, follows your cursor, and tells the time. It also has secrets. View-source is your friend. 👀
-
-</div>
-
-<br>
-
----
-
-<br>
-
-# 🧭 Right now
-
-**Software Development Engineer I @ Groww** — building financial products where the numbers are real:
-
-- 🔹 Owned the **Unlisted Shares** product end-to-end — frontend, backend, order tracking, bank-statement workflows, payment reconciliation
-- 🔹 Built **Java / Spring Boot** report generation across 5+ microservices (one of them an ML service)
-- 🔹 Shipped a migration pipeline moving **300K+ financial records** while processing 2K+ real-time events daily
-- 🔹 Before that **@ Fisdom** — unblocked **₹10 Cr+** in stuck commission payouts, cut document latency by **80%**
-
-<br>
-
-# 📊 Scoreboard
-
-<div align="center">
-
-| ₹120+ Cr | 5,000+ | 300K+ | 80% | 3M+ |
-|:---:|:---:|:---:|:---:|:---:|
-| investments supported | transactions processed | records migrated | latency cut | base pairs visualized |
-
-</div>
+- 🔹 Currently **SDE I @ Groww** — previously **SDE Intern @ Fisdom**
+- 🎓 MCA · Tezpur University &nbsp;|&nbsp; B.Com (Hons) · University of Delhi
+- 💡 Most at home where engineering meets business thinking
+- 🌱 Always learning something new — right now: systems that scale gracefully
 
 <br>
 
@@ -128,8 +100,6 @@
 
 ### 💬 Always up for a good conversation — code, products, ideas, or the *why* behind what we build.
 
-**[sharmshivam23032000@gmail.com](mailto:sharmshivam23032000@gmail.com)** · **[WhatsApp](https://wa.me/919873923169)** · **[LinkedIn](https://www.linkedin.com/in/mr-shivam-sharma/)**
-
-<sub>This repo doubles as my portfolio's source — <code>build/</code> auto-deploys to Netlify, <code>archive/build-v1/</code> is where the old site rests. ⚰️🕊️</sub>
+**[sharmshivam23032000@gmail.com](mailto:sharmshivam23032000@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/mr-shivam-sharma/)** · **[X](https://x.com/_sharma_shivam)**
 
 </div>
