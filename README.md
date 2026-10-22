@@ -50,9 +50,9 @@ I like problems that need more than just code: understanding what's broken, weig
     <sub>Location-based social discovery with geospatial search — MERN + Leaflet</sub>
   </td>
   <td width="50%">
-    <a href="https://my-day-planning.netlify.app/"><img src="./build/images/my-day-planning.png" alt="My Day Planning"></a>
-    <h3>My Day Planning</h3>
-    <sub>Minimal day planner with persistent storage — React</sub>
+    <a href="https://github.com/3303mavihS/Mockman"><img src="./build/images/mockman.png" alt="MockMan"></a>
+    <h3>MockMan</h3>
+    <sub>Local mock-interview platform with an AI interviewer — Python · FastAPI · React · MLX</sub>
   </td>
 </tr>
 <tr>
