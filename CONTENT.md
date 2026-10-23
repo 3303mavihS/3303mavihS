@@ -78,6 +78,15 @@ This file holds the text content for `build/index.html`. Keep the structure and 
 > The list row shows a short title and category; the modal shows the full title, description, tech tags, and link. Project images live in `build/images/`.
 
 ### Project 0
+- List title: `MockMan`
+- Category: `AI Interview Platform`
+- Modal title: `MockMan — Local Mock-Interview Platform`
+- Description: `A local mock-interview platform that feels like the real thing. Set up a round, pass a device check in the green room, then join a Meet- or Zoom-style call and answer out loud to an AI interviewer with a neural voice. After the call, review transcripts, per-turn audio replays, question-by-question coaching, and speaking metrics — private by construction, with voice and transcripts never leaving your Mac.`
+- Tags: `Python, FastAPI, React, Vite, MLX, Kokoro TTS, Apple SpeechAnalyzer, Swift, opencode`
+- Link: `https://github.com/3303mavihS/Mockman`
+- Image: `images/mockman.png`
+
+### Project 1
 - List title: `Orderbook Depth 3D Visualizer`
 - Category: `Web Application`
 - Modal title: `Real-Time Orderbook Depth 3D Visualizer`
@@ -86,7 +95,7 @@ This file holds the text content for `build/index.html`. Keep the structure and 
 - Link: `https://3d-orderbook.netlify.app/`
 - Image: `images/orderbook.png`
 
-### Project 1
+### Project 2
 - List title: `Genomic Portal`
 - Category: `Research Web Application`
 - Modal title: `Genetic Information Visualization & Retrieval Portal`
@@ -95,7 +104,7 @@ This file holds the text content for `build/index.html`. Keep the structure and 
 - Link: `Currently available to univeristy network`
 - Image: `images/genetic-portal.png`
 
-### Project 2
+### Project 3
 - List title: `LocalVibe`
 - Category: `Web Application`
 - Modal title: `LocalVibe — Location-Based Social Discovery`
@@ -103,15 +112,6 @@ This file holds the text content for `build/index.html`. Keep the structure and 
 - Tags: `React, Redux Toolkit, Node.js, Express.js, MongoDB, REST APIs, JWT, GridFS, React Leaflet`
 - Link: `https://localvibe.netlify.app/`
 - Image: `images/localvibe.png`
-
-### Project 3
-- List title: `MockMan`
-- Category: `AI Interview Platform`
-- Modal title: `MockMan — Local Mock-Interview Platform`
-- Description: `A local mock-interview platform that feels like the real thing. Set up a round, pass a device check in the green room, then join a Meet- or Zoom-style call and answer out loud to an AI interviewer with a neural voice. After the call, review transcripts, per-turn audio replays, question-by-question coaching, and speaking metrics — private by construction, with voice and transcripts never leaving your Mac.`
-- Tags: `Python, FastAPI, React, Vite, MLX, Kokoro TTS, Apple SpeechAnalyzer, Swift, opencode`
-- Link: `https://github.com/3303mavihS/Mockman`
-- Image: `images/mockman.png`
 
 ### Project 4
 - List title: `Remote FileBox`

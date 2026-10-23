@@ -33,26 +33,26 @@ I like problems that need more than just code: understanding what's broken, weig
 <table>
 <tr>
   <td width="50%">
+    <a href="https://github.com/3303mavihS/Mockman"><img src="./build/images/mockman.png" alt="MockMan"></a>
+    <h3>MockMan</h3>
+    <sub>Local mock-interview platform with an AI interviewer — Python · FastAPI · React · MLX</sub>
+  </td>
+  <td width="50%">
     <a href="https://3d-orderbook.netlify.app/"><img src="./build/images/orderbook.png" alt="Orderbook Depth 3D"></a>
     <h3>Orderbook Depth 3D</h3>
     <sub>Crypto market depth as a live 3D landscape — Three.js · Binance/OKX APIs</sub>
   </td>
+</tr>
+<tr>
   <td width="50%">
     <img src="./build/images/genetic-portal.png" alt="Genomic Portal">
     <h3>Genomic Research Portal</h3>
     <sub>3M+ base pairs on a custom Canvas genome browser — 100+ researchers</sub>
   </td>
-</tr>
-<tr>
   <td width="50%">
     <a href="https://localvibe.netlify.app/"><img src="./build/images/localvibe.png" alt="LocalVibe"></a>
     <h3>LocalVibe</h3>
     <sub>Location-based social discovery with geospatial search — MERN + Leaflet</sub>
-  </td>
-  <td width="50%">
-    <a href="https://github.com/3303mavihS/Mockman"><img src="./build/images/mockman.png" alt="MockMan"></a>
-    <h3>MockMan</h3>
-    <sub>Local mock-interview platform with an AI interviewer — Python · FastAPI · React · MLX</sub>
   </td>
 </tr>
 <tr>
