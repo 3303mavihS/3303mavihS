@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Shivam Sharma — Software Engineer</title>
+    <meta name="description" content="Shivam Sharma — Software Engineer. I turn complex problems into useful products, from thoughtful interfaces to the systems that keep them running.">
+    <meta name="author" content="Shivam Sharma">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- fonts
+    ================================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:opsz,wght@14..32,400;14..32,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+</head>
+
+<body>
+
+    <!-- film grain (pure texture, no gradients)
+    ================================================== -->
+    <div class="grain" aria-hidden="true"></div>
+
+    <!-- custom cursor
+    ================================================== -->
+    <div class="cursor" aria-hidden="true">
+        <div class="cursor__dot"></div>
+        <div class="cursor__ring"></div>
+    </div>
+
+    <!-- preloader
+    ================================================== -->
+    <div class="preloader" id="preloader" aria-hidden="true">
+        <div class="preloader__panel preloader__panel--back"></div>
+        <div class="preloader__panel preloader__panel--front">
+            <div class="preloader__words" aria-hidden="true">
+                <span class="preloader__word">Hello</span>
+                <span class="preloader__word">नमस्ते</span>
+                <span class="preloader__word">Bonjour</span>
+                <span class="preloader__word">Hola</span>
+                <span class="preloader__word">Ciao</span>
+                <span class="preloader__word">こんにちは</span>
+                <span class="preloader__word preloader__word--final">Welcome</span>
+            </div>
+            <div class="preloader__meta">
+                <span>Portfolio — 2026</span>
+                <span class="preloader__count" id="preloader-count">000</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- header
+    ================================================== -->
+    <header class="site-header" id="site-header">
+        <a href="#top" class="brand" data-scroll data-hover>
+            Shivam Sharma<sup>©</sup>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+            <a href="#about" data-scroll data-hover><span class="nav-index">01</span><span class="nav-label">About</span></a>
+            <a href="#works" data-scroll data-hover><span class="nav-index">02</span><span class="nav-label">Works</span></a>
+            <a href="#contact" data-scroll data-hover><span class="nav-index">03</span><span class="nav-label">Contact</span></a>
+        </nav>
+        <div class="header-clock" aria-hidden="true">
+            <span id="header-time">--:--:--</span>
+            <span class="header-clock__zone">IST</span>
+        </div>
+    </header>
+
+    <!-- page
+    ================================================== -->
+    <div class="smooth-wrapper" id="smooth-wrapper">
+        <main class="smooth-content" id="smooth-content">
+
+            <!-- ### hero
+            ================================================== -->
+            <section class="hero" id="top">
+
+                <div class="hero__pretitle" data-hero-fade>
+                    <span class="hero__pretitle-line"></span>
+                    <span>Hello — glad you're here</span>
+                </div>
+
+                <h1 class="hero__title">
+                    <span class="hero__line hero__line--small"><span class="hero__line-inner"><em>I’m</em></span></span>
+                    <span class="hero__line"><span class="hero__line-inner">Shivam</span></span>
+                    <span class="hero__line"><span class="hero__line-inner"><em>Sharma</em><span class="hero__reg">®</span></span></span>
+                </h1>
+
+                <div class="hero__below">
+                    <div class="hero__role" data-hero-fade>
+                        <p>Software Engineer,</p>
+                        <p>problem solver &amp;</p>
+                        <p>a lifelong learner<span class="accent-dot">.</span></p>
+                    </div>
+
+                    <div class="hero__aside" data-hero-fade>
+                        <figure class="hero__portrait">
+                            <img src="images/profile-pic.webp" alt="Portrait of Shivam Sharma">
+                        </figure>
+                        <p class="hero__note">
+                            I turn complex problems into useful products — from thoughtful
+                            interfaces to the <em>systems</em> that keep them <em>running</em>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="hero__meta" data-hero-fade>
+                    <span>Based in India</span>
+                    <span class="hero__meta-sep" aria-hidden="true"></span>
+                    <span>Open to opportunities</span>
+                    <span class="hero__meta-sep" aria-hidden="true"></span>
+                    <a href="#about" class="hero__scrollcue" data-scroll data-hover>
+                        Scroll
+                        <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 1v11M1.5 8.5 6 13l4.5-4.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                </div>
+
+            </section> <!-- end hero -->
+
+
+            <!-- ### marquee
+            ================================================== -->
+            <div class="marquee" aria-hidden="true">
+                <div class="marquee__track">
+                    <span>Full-Stack Engineering <i>—</i> Backend Systems <i>—</i> Product Development <i>—</i> API Integration <i>—</i> Data Pipelines <i>—</i> Financial Technology <i>—</i> User Experience <i>—</i> Problem Solving <i>—</i>&nbsp;</span>
+                    <span>Full-Stack Engineering <i>—</i> Backend Systems <i>—</i> Product Development <i>—</i> API Integration <i>—</i> Data Pipelines <i>—</i> Financial Technology <i>—</i> User Experience <i>—</i> Problem Solving <i>—</i>&nbsp;</span>
+                </div>
+            </div>
+
+
+            <!-- ### about
+            ================================================== -->
+            <section class="about section" id="about">
+
+                <header class="section-head" data-reveal>
+                    <span class="section-head__index">01</span>
+                    <h2 class="section-head__title">About</h2>
+                    <span class="section-head__line" aria-hidden="true"></span>
+                </header>
+
+                <p class="about__scrub" data-scrub>
+                    I’m a software engineer who enjoys working across the stack and figuring
+                    out how the pieces fit together. At Groww, I’ve built financial product
+                    features spanning React interfaces, Java services, database workflows,
+                    and data migration. My MCA gave me a stronger computer science foundation,
+                    while my earlier business studies help me keep the user and business
+                    problem in view.
+                </p>
+
+                <p class="about__scrub about__scrub--accent" data-scrub>
+                    I like problems that need more than just code: understanding what’s broken,
+                    weighing trade-offs, and building something people can rely on. I’m looking
+                    to take broader ownership, contribute to product decisions, and help shape
+                    not just how we build things, but what we build and why.
+                </p>
+
+                <div class="about__skills" data-reveal-group>
+
+                    <h3 class="about__skills-title" data-reveal>Tools I build with <em>(and keep learning)</em></h3>
+
+                    <ul class="skill-rows">
+                        <li class="skill-row" data-reveal>
+                            <span class="skill-row__label">Languages</span>
+                            <span class="skill-row__items">Java · Python · JavaScript · TypeScript · SQL · Kotlin · HTML · CSS</span>
+                        </li>
+                        <li class="skill-row" data-reveal>
+                            <span class="skill-row__label">Frameworks &amp; Libraries</span>
+                            <span class="skill-row__items">React · Vue · Node.js · Express.js · Spring Boot · Tailwind CSS · Bootstrap · Redux Toolkit</span>
+                        </li>
+                        <li class="skill-row" data-reveal>
+                            <span class="skill-row__label">Databases &amp; APIs</span>
+                            <span class="skill-row__items">MySQL · PostgreSQL · MongoDB · REST APIs · Microservices · API Integration</span>
+                        </li>
+                        <li class="skill-row" data-reveal>
+                            <span class="skill-row__label">Cloud &amp; Tools</span>
+                            <span class="skill-row__items">Google Cloud Platform (GCP) · Docker · Kong API Gateway · Linux · Git · GitHub · Postman · Jira</span>
+                        </li>
+                    </ul>
+
+                    <button class="btn" data-magnetic data-hover data-modal-open="resume-modal">
+                        <span class="btn__label">View my CV</span>
+                        <span class="btn__icon" aria-hidden="true">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 1v8M2.5 5.8 6 9.3l3.5-3.5M1.5 11h9" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </span>
+                    </button>
+
+                </div>
+
+            </section> <!-- end about -->
+
+
+            <!-- ### experience & education
+            ================================================== -->
+            <section class="journey section" id="experience">
+
+                <div class="journey__col">
+                    <header class="section-head" data-reveal>
+                        <span class="section-head__index">02</span>
+                        <h2 class="section-head__title">Experience</h2>
+                        <span class="section-head__line" aria-hidden="true"></span>
+                    </header>
+
+                    <ul class="timeline">
+
+                        <li class="timeline__item" data-reveal>
+                            <button class="timeline__row" data-hover data-modal-open="exp-01" aria-haspopup="dialog">
+                                <span class="timeline__period">2025 — Now</span>
+                                <span class="timeline__role">Software Development Engineer I</span>
+                                <span class="timeline__org">Groww</span>
+                                <span class="timeline__toggle" aria-hidden="true"></span>
+                            </button>
+                        </li>
+
+                        <li class="timeline__item" data-reveal>
+                            <button class="timeline__row" data-hover data-modal-open="exp-02" aria-haspopup="dialog">
+                                <span class="timeline__period">2025</span>
+                                <span class="timeline__role">Software Development Engineer Intern</span>
+                                <span class="timeline__org">Fisdom</span>
+                                <span class="timeline__toggle" aria-hidden="true"></span>
+                            </button>
+                        </li>
+
+                        <li class="timeline__item" data-reveal>
+                            <button class="timeline__row" data-hover data-modal-open="exp-03" aria-haspopup="dialog">
+                                <span class="timeline__period">2021 — 2022</span>
+                                <span class="timeline__role">Junior Web Developer</span>
+                                <span class="timeline__org">DPI Infotech</span>
+                                <span class="timeline__toggle" aria-hidden="true"></span>
+                            </button>
+                        </li>
+
+                        <li class="timeline__item" data-reveal>
+                            <button class="timeline__row" data-hover data-modal-open="exp-04" aria-haspopup="dialog">
+                                <span class="timeline__period">2019 — 2020</span>
+                                <span class="timeline__role">Web Developer Intern</span>
+                                <span class="timeline__org">9Heaven</span>
+                                <span class="timeline__toggle" aria-hidden="true"></span>
+                            </button>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="journey__col">
+                    <header class="section-head" data-reveal>
+                        <span class="section-head__index">03</span>
+                        <h2 class="section-head__title">Education</h2>
+                        <span class="section-head__line" aria-hidden="true"></span>
+                    </header>
+
+                    <ul class="timeline">
+                        <li class="timeline__row" data-reveal>
+                            <span class="timeline__period">2022 — 2025</span>
+                            <span class="timeline__role">Master of Computer Applications</span>
+                            <span class="timeline__org">Tezpur University</span>
+                        </li>
+                        <li class="timeline__row" data-reveal>
+                            <span class="timeline__period">2017 — 2020</span>
+                            <span class="timeline__role">B.Com (Honours)</span>
+                            <span class="timeline__org">University of Delhi</span>
+                        </li>
+                        <li class="timeline__row" data-reveal>
+                            <span class="timeline__period">2017 — 2018</span>
+                            <span class="timeline__role">Diploma in Computer Applications</span>
+                            <span class="timeline__org">AIITA</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </section> <!-- end journey -->
+
+
+            <!-- ### works
+            ================================================== -->
+            <section class="works section" id="works">
+
+                <header class="section-head" data-reveal>
+                    <span class="section-head__index">04</span>
+                    <h2 class="section-head__title">Selected Works</h2>
+                    <span class="section-head__line" aria-hidden="true"></span>
+                </header>
+
+                <p class="works__intro" data-reveal>
+                    A few favourite things I’ve built lately — <em>feel free to dig in.</em>
+                </p>
+
+                <ul class="work-list">
+
+                    <li class="work-item" data-reveal>
+                        <button class="work-item__row" data-hover data-modal-open="modal-01"
+                                data-preview="images/mockman.png">
+                            <span class="work-item__index">01</span>
+                            <span class="work-item__title">MockMan</span>
+                            <span class="work-item__cat">AI Interview Platform</span>
+                            <span class="work-item__arrow" aria-hidden="true">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 8h11M9.5 4.5 13 8l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                        </button>
+                    </li>
+
+                    <li class="work-item" data-reveal>
+                        <button class="work-item__row" data-hover data-modal-open="modal-02"
+                                data-preview="images/orderbook.png">
+                            <span class="work-item__index">02</span>
+                            <span class="work-item__title">Orderbook Depth 3D</span>
+                            <span class="work-item__cat">Web Application</span>
+                            <span class="work-item__arrow" aria-hidden="true">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 8h11M9.5 4.5 13 8l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                        </button>
+                    </li>
+
+                    <li class="work-item" data-reveal>
+                        <button class="work-item__row" data-hover data-modal-open="modal-03"
+                                data-preview="images/genetic-portal.png">
+                            <span class="work-item__index">03</span>
+                            <span class="work-item__title">Genomic Portal</span>
+                            <span class="work-item__cat">Research Web Application</span>
+                            <span class="work-item__arrow" aria-hidden="true">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 8h11M9.5 4.5 13 8l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                        </button>
+                    </li>
+
+                    <li class="work-item" data-reveal>
+                        <button class="work-item__row" data-hover data-modal-open="modal-04"
+                                data-preview="images/localvibe.png">
+                            <span class="work-item__index">04</span>
+                            <span class="work-item__title">LocalVibe</span>
+                            <span class="work-item__cat">Web Application</span>
+                            <span class="work-item__arrow" aria-hidden="true">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 8h11M9.5 4.5 13 8l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                        </button>
+                    </li>
+
+                    <li class="work-item" data-reveal>
+                        <button class="work-item__row" data-hover data-modal-open="modal-05"
+                                data-preview="images/remote-filebox.png">
+                            <span class="work-item__index">05</span>
+                            <span class="work-item__title">Remote FileBox</span>
+                            <span class="work-item__cat">Android Application</span>
+                            <span class="work-item__arrow" aria-hidden="true">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 8h11M9.5 4.5 13 8l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                        </button>
+                    </li>
+
+                    <li class="work-item" data-reveal>
+                        <button class="work-item__row" data-hover data-modal-open="modal-06"
+                                data-preview="images/i-m-bored.png">
+                            <span class="work-item__index">06</span>
+                            <span class="work-item__title">I’m Bored</span>
+                            <span class="work-item__cat">Android Application</span>
+                            <span class="work-item__arrow" aria-hidden="true">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 8h11M9.5 4.5 13 8l-3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </span>
+                        </button>
+                    </li>
+
+                </ul>
+
+            </section> <!-- end works -->
+
+
+            <!-- ### contact
+            ================================================== -->
+            <section class="contact section" id="contact">
+
+                <header class="section-head section-head--invert" data-reveal>
+                    <span class="section-head__index">05</span>
+                    <h2 class="section-head__title">Get in touch</h2>
+                    <span class="section-head__line" aria-hidden="true"></span>
+                </header>
+
+                <div class="contact__cta">
+                    <p class="contact__lead" data-reveal>
+                        Have a problem to solve, an idea to explore, or something
+                        worth building together? Let’s talk.
+                    </p>
+                    <a class="contact__giant" data-hover href="mailto:sharmshivam23032000@gmail.com" data-reveal>
+                        <span class="contact__giant-line"><span>Say</span></span>
+                        <span class="contact__giant-line"><span><em>Hello</em> ↗</span></span>
+                    </a>
+                </div>
+
+                <div class="contact__grid" data-reveal>
+                    <div class="contact__block">
+                        <h3 class="contact__label">Reach me at</h3>
+                        <a href="mailto:sharmshivam23032000@gmail.com" data-hover>sharmshivam23032000@gmail.com</a>
+                        <a href="tel:+919873923169" data-hover>+91 98739 23169</a>
+                    </div>
+                    <div class="contact__block">
+                        <h3 class="contact__label">Social</h3>
+                        <a href="https://www.linkedin.com/in/mr-shivam-sharma" target="_blank" rel="noopener" data-hover>LinkedIn</a>
+                        <a href="https://github.com/3303mavihS" target="_blank" rel="noopener" data-hover>GitHub</a>
+                        <a href="https://x.com/_sharma_shivam" target="_blank" rel="noopener" data-hover>Twitter / X</a>
+                        <a href="https://www.instagram.com/sharma_mavihs" target="_blank" rel="noopener" data-hover>Instagram</a>
+                    </div>
+                </div>
+
+            </section> <!-- end contact -->
+
+
+            <!-- ### footer
+            ================================================== -->
+            <footer class="site-footer">
+                <span>© 2026 | Shivam Sharma</span>
+                <span>Designed &amp; built with care, curiosity, and a lot of iteration</span>
+                <button class="to-top" id="to-top" data-hover aria-label="Back to top">
+                    Top
+                    <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 13V2M1.5 5.5 6 1l4.5 4.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+            </footer>
+
+        </main>
+    </div>
+
+
+    <!-- floating work preview (follows cursor)
+    ================================================== -->
+    <div class="work-preview" id="work-preview" aria-hidden="true">
+        <div class="work-preview__inner">
+            <img class="work-preview__img" id="work-preview-img" src="" alt="">
+        </div>
+    </div>
+
+
+    <!-- modals
+    ================================================== -->
+    <div class="modal" id="modal-01" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-01-title">
+        <div class="modal__scrim" data-modal-close></div>
+        <div class="modal__panel">
+            <button class="modal__close" data-modal-close data-hover aria-label="Close project details">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l12 12M13 1 1 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </button>
+            <div class="modal__media"><img src="images/mockman.png" alt="MockMan interview platform screenshot"></div>
+            <div class="modal__body">
+                <span class="modal__index">Project — 01</span>
+                <h3 class="modal__title" id="modal-01-title">MockMan — Local Mock-Interview Platform</h3>
+                <p class="modal__text">
+                    A local mock-interview platform that feels like the real thing. Set up a round,
+                    pass a device check in the green room, then join a Meet- or Zoom-style call and
+                    answer out loud to an AI interviewer with a neural voice. After the call, review
+                    transcripts, per-turn audio replays, question-by-question coaching and speaking
+                    metrics — private by construction, with voice and transcripts never leaving
+                    your Mac.
+                </p>
+                <ul class="modal__tags">
+                    <li>Python</li><li>FastAPI</li><li>React</li><li>Vite</li><li>MLX</li><li>Kokoro TTS</li><li>Apple SpeechAnalyzer</li><li>Swift</li><li>opencode</li>
+                </ul>
+                <a class="btn btn--dark" data-hover href="https://github.com/3303mavihS/Mockman" target="_blank" rel="noopener">
+                    <span class="btn__label">View on GitHub</span>
+                    <span class="btn__icon" aria-hidden="true">↗</span>
+                </a>
+                <span class="modal__ghost" aria-hidden="true">01</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-02" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-02-title">
+        <div class="modal__scrim" data-modal-close></div>
+        <div class="modal__panel">
+            <button class="modal__close" data-modal-close data-hover aria-label="Close project details">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l12 12M13 1 1 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </button>
+            <div class="modal__media"><img src="images/orderbook.png" alt="Orderbook Depth 3D Visualizer screenshot"></div>
+            <div class="modal__body">
+                <span class="modal__index">Project — 02</span>
+                <h3 class="modal__title" id="modal-02-title">Real-Time Orderbook Depth 3D Visualizer</h3>
+                <p class="modal__text">
+                    A 3D visualization experience for cryptocurrency order-book depth, designed to
+                    make market liquidity easier to explore. A React-based 3D interface maps price,
+                    quantity and time into a spatial view, highlighting depth and pressure zones
+                    using live exchange market data.
+                </p>
+                <ul class="modal__tags">
+                    <li>Next.js</li><li>TypeScript</li><li>React</li><li>Three.js</li><li>React Three Fiber</li><li>Drei</li><li>Tailwind CSS</li><li>Binance API</li><li>OKX API</li>
+                </ul>
+                <a class="btn btn--dark" data-hover href="https://3d-orderbook.netlify.app/" target="_blank" rel="noopener">
+                    <span class="btn__label">Visit project</span>
+                    <span class="btn__icon" aria-hidden="true">↗</span>
+                </a>
+                <span class="modal__ghost" aria-hidden="true">02</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-03" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-03-title">
+        <div class="modal__scrim" data-modal-close></div>
+        <div class="modal__panel">
+            <button class="modal__close" data-modal-close data-hover aria-label="Close project details">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l12 12M13 1 1 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </button>
+            <div class="modal__media"><img src="images/genetic-portal.png" alt="Genomic Portal screenshot"></div>
+            <div class="modal__body">
+                <span class="modal__index">Project — 03</span>
+                <h3 class="modal__title" id="modal-03-title">Genetic Information Visualization &amp; Retrieval Portal</h3>
+                <p class="modal__text">
+                    A genomic research portal for exploring the <em>Ralstonia solanacearum</em> F1C1
+                    strain, a bacterial pathogen that causes wilt disease in plants. Its custom HTML5
+                    Canvas interface visualizes more than 3M base pairs and lets researchers search and
+                    inspect 300K+ biological records by genomic range and annotation. Deployed for
+                    university research use, it supported 100+ researchers.
+                </p>
+                <ul class="modal__tags">
+                    <li>HTML5 Canvas</li><li>JavaScript</li><li>Node.js</li><li>Express.js</li><li>REST APIs</li><li>MongoDB</li><li>Linux</li><li>Nginx</li><li>Apache</li><li>PM2</li>
+                </ul>
+                <span class="modal__note">Currently available on the university network</span>
+                <span class="modal__ghost" aria-hidden="true">03</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-04" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-04-title">
+        <div class="modal__scrim" data-modal-close></div>
+        <div class="modal__panel">
+            <button class="modal__close" data-modal-close data-hover aria-label="Close project details">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l12 12M13 1 1 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </button>
+            <div class="modal__media"><img src="images/localvibe.png" alt="LocalVibe screenshot"></div>
+            <div class="modal__body">
+                <span class="modal__index">Project — 04</span>
+                <h3 class="modal__title" id="modal-04-title">LocalVibe — Location-Based Social Discovery</h3>
+                <p class="modal__text">
+                    A location-based social platform for discovering and sharing local experiences,
+                    from cafés and restaurants to hidden gems. Built with React and Redux Toolkit on
+                    the frontend and Node.js / Express on the backend, it supports social interactions,
+                    media uploads and geospatial search for places within a chosen radius.
+                </p>
+                <ul class="modal__tags">
+                    <li>React</li><li>Redux Toolkit</li><li>Node.js</li><li>Express.js</li><li>MongoDB</li><li>REST APIs</li><li>JWT</li><li>GridFS</li><li>React Leaflet</li>
+                </ul>
+                <a class="btn btn--dark" data-hover href="https://localvibe.netlify.app/" target="_blank" rel="noopener">
+                    <span class="btn__label">Visit project</span>
+                    <span class="btn__icon" aria-hidden="true">↗</span>
+                </a>
+                <span class="modal__ghost" aria-hidden="true">04</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-05" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-05-title">
+        <div class="modal__scrim" data-modal-close></div>
+        <div class="modal__panel">
+            <button class="modal__close" data-modal-close data-hover aria-label="Close project details">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l12 12M13 1 1 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </button>
+            <div class="modal__media"><img src="images/remote-filebox.png" alt="Remote FileBox screenshot"></div>
+            <div class="modal__body">
+                <span class="modal__index">Project — 05</span>
+                <h3 class="modal__title" id="modal-05-title">Remote FileBox</h3>
+                <p class="modal__text">
+                    A native Android file-management app built with Kotlin and MVVM. It connects to
+                    remote services for file operations and focuses on reliable transfers, efficient
+                    image loading, caching and a smooth mobile experience.
+                </p>
+                <ul class="modal__tags">
+                    <li>Kotlin</li><li>Android</li><li>MVVM</li><li>Retrofit</li><li>OkHttp</li><li>Coroutines</li><li>Glide</li><li>Room</li>
+                </ul>
+                <a class="btn btn--dark" data-hover href="https://github.com/3303mavihS/RemoteFileBox" target="_blank" rel="noopener">
+                    <span class="btn__label">View on GitHub</span>
+                    <span class="btn__icon" aria-hidden="true">↗</span>
+                </a>
+                <span class="modal__ghost" aria-hidden="true">05</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-06" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-06-title">
+        <div class="modal__scrim" data-modal-close></div>
+        <div class="modal__panel">
+            <button class="modal__close" data-modal-close data-hover aria-label="Close project details">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l12 12M13 1 1 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </button>
+            <div class="modal__media"><img src="images/i-m-bored.png" alt="I'm Bored app screenshot"></div>
+            <div class="modal__body">
+                <span class="modal__index">Project — 06</span>
+                <h3 class="modal__title" id="modal-06-title">I’m Bored — Activity Discovery</h3>
+                <p class="modal__text">
+                    An Android app that suggests activities for when you don’t know what to do.
+                    Built with Kotlin and MVVM, it consumes a REST API using Retrofit, with Room
+                    and coroutines supporting a structured, responsive experience.
+                </p>
+                <ul class="modal__tags">
+                    <li>Kotlin</li><li>Android</li><li>Retrofit</li><li>MVVM</li><li>Room</li><li>Coroutines</li><li>REST APIs</li>
+                </ul>
+                <a class="btn btn--dark" data-hover href="https://github.com/3303mavihS/I-m-Bored" target="_blank" rel="noopener">
+                    <span class="btn__label">View on GitHub</span>
+                    <span class="btn__icon" aria-hidden="true">↗</span>
+                </a>
+                <span class="modal__ghost" aria-hidden="true">06</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- experience modals
+    ================================================== -->
+    <div class="modal" id="exp-01" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="exp-01-title">
+        <div class="modal__scrim" data-modal-close></div>
+        <div class="modal__panel modal__panel--text">
+            <button class="modal__close" data-modal-close data-hover aria-label="Close experience details">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l12 12M13 1 1 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </button>
+            <div class="modal__body">
+                <span class="modal__index">Experience — 01 · Aug 2025 — Present</span>
+                <h3 class="modal__title" id="exp-01-title">Software Development Engineer I</h3>
+                <p class="modal__subtitle">Groww</p>
+                <div class="modal__stats">
+                    <div class="stat"><span class="stat__num" data-count="120" data-prefix="₹" data-suffix=" Cr+">0</span><span class="stat__label">investments supported</span></div>
+                    <div class="stat"><span class="stat__num" data-count="5000" data-suffix="+">0</span><span class="stat__label">transactions processed</span></div>
+                    <div class="stat"><span class="stat__num" data-count="300" data-suffix="K+">0</span><span class="stat__label">records migrated</span></div>
+                </div>
+                <ul class="modal__points">
+                    <li>Owned end-to-end development of the Unlisted Shares product across frontend and backend — React order-tracking dashboards, reusable data tables, client-selection workflows, order processing, bank-statement workflows and payment reconciliation. Supported 5,000+ transactions and ₹120+ crore in investments.</li>
+                    <li>Developed a Java / Spring Boot report-generation workflow within a microservices architecture, integrating 5+ services — including an ML service — to aggregate responses, perform business calculations and generate consolidated reports.</li>
+                    <li>Built a migration pipeline for 300K+ historical financial records while processing 2K+ real-time events per day, with retry handling to keep data consistent and processing uninterrupted.</li>
+                    <li>Developed a multi-step PMS onboarding workflow integrating multiple backend services — dynamic forms, client-side validation and persistence — so wealth partners and HNI clients could resume interrupted investment flows of ₹50 lakh or more.</li>
+                    <li>Contributed to Whiz, a wealth-management platform for wealth partners, building frontend and backend features including Wealth Circle and WOW Reports for pipeline tracking, progress monitoring and client portfolio visibility.</li>
+                </ul>
+                <span class="modal__ghost" aria-hidden="true">01</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="exp-02" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="exp-02-title">
+        <div class="modal__scrim" data-modal-close></div>
+        <div class="modal__panel modal__panel--text">
+            <button class="modal__close" data-modal-close data-hover aria-label="Close experience details">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l12 12M13 1 1 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </button>
+            <div class="modal__body">
+                <span class="modal__index">Experience — 02 · Feb 2025 — Jul 2025</span>
+                <h3 class="modal__title" id="exp-02-title">Software Development Engineer Intern</h3>
+                <p class="modal__subtitle">Fisdom</p>
+                <div class="modal__stats">
+                    <div class="stat"><span class="stat__num" data-count="10" data-prefix="₹" data-suffix=" Cr+">0</span><span class="stat__label">payouts restored</span></div>
+                    <div class="stat"><span class="stat__num" data-count="80" data-suffix="%">0</span><span class="stat__label">upload latency reduced</span></div>
+                    <div class="stat"><span class="stat__num" data-count="25" data-suffix="+">0</span><span class="stat__label">REST APIs built</span></div>
+                </div>
+                <ul class="modal__points">
+                    <li>Developed 25+ Python REST APIs across 10+ microservices, integrating BSE services and supporting SEBI-compliant KYC, account-servicing and nominee-management workflows processing 2,500+ daily updates.</li>
+                    <li>Resolved a critical background-queue failure that had blocked ₹10 crore+ in pending commission payouts, restoring a critical financial workflow.</li>
+                    <li>Optimized PMS document uploads using GCP Signed URLs and parallel uploads, reducing document-processing latency by 80%.</li>
+                </ul>
+                <span class="modal__ghost" aria-hidden="true">02</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="exp-03" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="exp-03-title">
+        <div class="modal__scrim" data-modal-close></div>
+        <div class="modal__panel modal__panel--text">
+            <button class="modal__close" data-modal-close data-hover aria-label="Close experience details">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l12 12M13 1 1 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </button>
+            <div class="modal__body">
+                <span class="modal__index">Experience — 03 · Nov 2021 — Jul 2022</span>
+                <h3 class="modal__title" id="exp-03-title">Junior Web Developer</h3>
+                <p class="modal__subtitle">DPI Infotech</p>
+                <div class="modal__stats">
+                    <div class="stat"><span class="stat__num" data-count="15" data-suffix="+">0</span><span class="stat__label">client apps delivered</span></div>
+                    <div class="stat"><span class="stat__num" data-count="20" data-suffix="%">0</span><span class="stat__label">faster delivery</span></div>
+                </div>
+                <ul class="modal__points">
+                    <li>Delivered 15+ client web applications using JavaScript, Bootstrap and modular REST APIs; designed MySQL schemas and optimized SQL queries for data-driven dashboards and user-management workflows.</li>
+                    <li>Improved legacy applications by removing redundant dependencies, customizing themes and plugins, and managing client requirements, hosting deployments and production maintenance — reducing delivery timelines by 20%.</li>
+                </ul>
+                <span class="modal__ghost" aria-hidden="true">03</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="exp-04" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="exp-04-title">
+        <div class="modal__scrim" data-modal-close></div>
+        <div class="modal__panel modal__panel--text">
+            <button class="modal__close" data-modal-close data-hover aria-label="Close experience details">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l12 12M13 1 1 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </button>
+            <div class="modal__body">
+                <span class="modal__index">Experience — 04 · Nov 2019 — Feb 2020</span>
+                <h3 class="modal__title" id="exp-04-title">Web Developer Intern</h3>
+                <p class="modal__subtitle">9Heaven</p>
+                <div class="modal__stats">
+                    <div class="stat"><span class="stat__num" data-count="100" data-suffix="+">0</span><span class="stat__label">portfolios showcased</span></div>
+                    <div class="stat"><span class="stat__num" data-count="40" data-suffix="%">0</span><span class="stat__label">mobile usability gain</span></div>
+                </div>
+                <ul class="modal__points">
+                    <li>Redesigned a startup website and coordinated work across the team, managing development and design tasks through delivery.</li>
+                    <li>Developed and maintained websites for major clients, translating requirements into website features and organizing workflows for ongoing updates and maintenance.</li>
+                </ul>
+                <span class="modal__ghost" aria-hidden="true">04</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- resume viewer modal
+    ================================================== -->
+    <div class="modal" id="resume-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="resume-modal-title">
+        <div class="modal__scrim" data-modal-close></div>
+        <div class="modal__panel modal__panel--resume">
+            <button class="modal__close" data-modal-close data-hover aria-label="Close resume viewer">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l12 12M13 1 1 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </button>
+
+            <div class="resume-viewer">
+                <iframe id="resume-frame" title="Resume preview" loading="lazy"></iframe>
+            </div>
+
+            <aside class="resume-side">
+                <span class="modal__index">Resume</span>
+                <h3 class="modal__title" id="resume-modal-title">Want the PDF?</h3>
+                <p class="modal__text" id="resume-message"></p>
+
+                <a class="btn btn--dark" id="resume-download" data-hover href="#" target="_blank" rel="noopener">
+                    <span class="btn__label">Download PDF</span>
+                    <span class="btn__icon" aria-hidden="true">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 1v8M2.5 5.8 6 9.3l3.5-3.5M1.5 11h9" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </span>
+                </a>
+
+                <div class="resume-divider"><span>or say hi first</span></div>
+
+                <input class="resume-input" id="resume-name" type="text" placeholder="Your name" autocomplete="name">
+                <input class="resume-input" id="resume-email" type="email" placeholder="Your email" autocomplete="email">
+                <button class="btn btn--dark btn--whatsapp" id="resume-whatsapp" data-hover>
+                    <span class="btn__label">WhatsApp me</span>
+                    <span class="btn__icon" aria-hidden="true">↗</span>
+                </button>
+                <p class="resume-note">Nothing is stored — this simply opens your WhatsApp with a pre-filled hello.</p>
+            </aside>
+        </div>
+    </div>
+
+
+    <!-- owner console modal (hidden — unlocked via console)
+    ================================================== -->
+    <div class="modal" id="owner-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="owner-modal-title">
+        <div class="modal__scrim" data-modal-close></div>
+        <div class="modal__panel modal__panel--text">
+            <button class="modal__close" data-modal-close data-hover aria-label="Close owner console">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l12 12M13 1 1 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </button>
+            <div class="modal__body">
+                <span class="modal__index">Owner console · Resume</span>
+                <h3 class="modal__title" id="owner-modal-title">Resume manager</h3>
+
+                <div class="owner-status">
+                    <p><span class="owner-status__label">Site default</span><span id="owner-default-url">—</span></p>
+                    <p><span class="owner-status__label">Your override</span><span id="owner-override-url">none</span></p>
+                </div>
+
+                <label class="owner-label" for="owner-view-url">View URL — paste any Google Drive link, it auto-converts</label>
+                <input class="resume-input" id="owner-view-url" type="url" placeholder="https://…/preview">
+
+                <label class="owner-label" for="owner-download-url">Download URL</label>
+                <input class="resume-input" id="owner-download-url" type="url" placeholder="https://…/resume.pdf">
+
+                <div class="owner-actions">
+                    <button class="btn btn--dark" id="owner-preview" data-hover>
+                        <span class="btn__label">Preview in viewer</span>
+                    </button>
+                    <button class="btn" id="owner-clear" data-hover>
+                        <span class="btn__label">Clear override</span>
+                    </button>
+                </div>
+
+                <label class="owner-label" for="owner-json">Make it site-wide — paste this into js/resume.config.js</label>
+                <textarea class="resume-input owner-json" id="owner-json" readonly rows="6"></textarea>
+                <button class="btn" id="owner-copy" data-hover>
+                    <span class="btn__label">Copy JSON</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript
+    ================================================== -->
+    <script src="js/resume.config.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
